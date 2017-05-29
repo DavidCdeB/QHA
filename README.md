@@ -9,7 +9,7 @@ The quasi-harmonic approximation is an elegant way to tacke with this problem in
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/levels_vibrat_cropped.png)
 
-By summing over all these levels of each independent harmonic oscillator, it is possible to derive the partition function:
+For a given independent harmonic oscillator, by summing over all these levels it is possible to derive the partition function:
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Z_i_k.png)
 
@@ -18,3 +18,6 @@ where there is a value of frequency for each *k* vector. In a molecule, this is 
 , where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
 
 
+$$
+\frac{n!}{k!(n-k)!} = {n \choose k}
+$$
