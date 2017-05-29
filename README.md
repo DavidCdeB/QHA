@@ -16,3 +16,5 @@ For a given independent harmonic oscillator, by summing over all these levels it
 where there is a value of frequency for each *k* vector. In a molecule, this is equivalent to a unique value of *k* (the Gamma point).
 
 , where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=a^{b}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a^{b}" title="a^{b}" /></a>
