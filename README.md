@@ -26,4 +26,11 @@ It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free 
 
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_donw.png)
 
+In the athermal limit, the pressure is the derivative of the energy with respect to the volume, and the resultant expression is called an Equation of State (EOS), that can be fitted, for instance, to the Birch-Murnagan EOS.
+
+However, at a finite temperature the pressure is no longer the derivative of the energy with respect to the volume but the Helmholtz free energy:
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/levels_vibrat_cropped.png)
+
+(
 , where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
