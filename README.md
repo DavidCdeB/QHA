@@ -7,8 +7,7 @@ One of the most famous techniques for taking into account the effect of the temp
 
 The quasi-harmonic approximation is an elegant way to tacke with this problem in condensed matter, by considering each atom as an independent harmonic oscillator, where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
 
-
-
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/levels_vibrat.png)
 
 
 
