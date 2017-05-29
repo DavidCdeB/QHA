@@ -41,3 +41,39 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/derivative.png)
  
  # 2. What is the `QHA` program ? 
+ 
+ `QHA` is a program for computational chemistry and physics that performs the quasi-harmonic approximation reading the frequencies at each volume calculated with [CRYSTAL](http://www.crystal.unito.it/index.php). 
+ 
+ * Extracts all the frequencies within all the **k** points in the supercell
+ * Fits every normal mode with respect to the volume.
+ * Calculates the pressure at finite temperature, as well as the entropy, heat capacity, Gibbs free energy
+ 
+ # 3. How to use `QHA`:
+ 
+ `QHA` requires two types of output files from CRYSTAL in the working directory:
+ 
+ * The output from the `EOS` calulation: 
+ 
+ ```
+ EOS
+[Optional sub-keywords]
+END 
+```
+ * If the `EOS` calculation was performed over 11 volumes (the default), you should run 11 `SCELPHONO` outputs:
+ 
+ ```
+SCELPHONO
+[supercell-matrix]
+FREQCALC
+NOINTENS
+NOOPTGEOM
+DISPERSI
+RESTART
+TEMPERAT
+[range-of-temperatures-desired]
+END
+END
+```
+ 
+ 
+ 
