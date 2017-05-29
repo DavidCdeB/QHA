@@ -16,8 +16,3 @@ For a given independent harmonic oscillator, by summing over all these levels it
 where there is a value of frequency for each *k* vector. In a molecule, this is equivalent to a unique value of *k* (the Gamma point).
 
 , where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
-
-
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
