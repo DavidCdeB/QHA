@@ -34,4 +34,4 @@ However, at a finite temperature the pressure is no longer the derivative of the
  
 where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell. These can be fitted quadratically:
  
- 
+  QHA/quadratic.png 
