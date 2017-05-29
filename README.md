@@ -48,7 +48,7 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  * Fits every normal mode with respect to the volume.
  * Calculates the pressure at finite temperature, as well as the entropy, heat capacity, Gibbs free energy
  
- # 3. How to use `QHA`:
+ # 3. Files needed for running `QHA`:
  
  `QHA` requires two types of output files from CRYSTAL in the working directory:
  
@@ -59,6 +59,8 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
 [Optional sub-keywords]
 END 
 ```
+The name of this output has to end as `*EOS.out`
+
  * If the `EOS` calculation was performed over 11 volumes (the default), you should run 11 `SCELPHONO` outputs:
  
  ```
@@ -74,6 +76,8 @@ TEMPERAT
 END
 END
 ```
- 
- 
- 
+The name of all these 11 outputs have to end as `*T.out`
+
+# 4. How to run `QHA`:
+
+
