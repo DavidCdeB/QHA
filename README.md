@@ -33,3 +33,5 @@ Z_{i, \mathbf{k}} = \frac{\exp\left ( -\frac{h\nu_{i}\left ( \mathbf{k} \right )
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Untitled1.md)
 
 file:///home/david/Untitled1.html
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Z_i_k_scaled.png)
