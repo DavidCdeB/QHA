@@ -58,6 +58,13 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  * Produces tables summarizing the results for all the volumes analyzed
  * 3D surface plot of the Gibbs free energy as a function of Pressure and Temperature 
  
+ The program is given as a `QHA.zip` file. When unzipped in the working directory, the program is structured as follows:
+ 
+ * A master program ``QHA.py``
+ * A series of ``bash`` and ``awk`` scripts for parsing data more effectively.
+ * `gnuplot` scripts for the plotting of the surfaces.
+ 
+ 
  # 3. Files needed for running `QHA`:
  
  `QHA` requires two types of output files from CRYSTAL in the working directory:
