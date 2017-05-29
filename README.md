@@ -53,8 +53,10 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  `QHA` is a program for computational chemistry and physics that performs the quasi-harmonic approximation reading the frequencies at each volume calculated with [CRYSTAL](http://www.crystal.unito.it/index.php). 
  
  * Extracts all the frequencies within all the **k** points in the supercell
- * Fits every normal mode with respect to the volume.
- * Calculates the pressure at finite temperature, as well as the entropy, heat capacity, Gibbs free energy
+ * Fits the frequency of each normal mode with respect to the volume.
+ * Calculates the pressure at finite temperature, as well as the entropy, heat capacity and Gibbs free energy
+ * Produces tables summarizing the results for all the volumes analyzed
+ * 3D surface plot of the Gibbs free energy as a function of Pressure and Temperature 
  
  # 3. Files needed for running `QHA`:
  
