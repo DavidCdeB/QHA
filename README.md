@@ -46,7 +46,7 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/gibbs_free_energy_of_two_phase.jpg)
  
- where the crossing between two phases (alpha and beta in the figure) define a line, which is the phase boundary of these two phases in a 2D Temperature-Pressure diagram. In other words, by implementing the quasi-harmonic approximation we are predicting the phase diagram of a substance, the thermodynamic stability of different polymorphs, which leads to the exploration of phase transitions at a fnite temperature and pressure.
+ where the crossing between two phases (alpha and beta in the figure) define a line, which is the phase boundary of these two phases in a 2D Temperature-Pressure diagram. In other words, by implementing the quasi-harmonic approximation we are predicting the phase diagram of a substance and the thermodynamic stability of different polymorphs, which leads to the exploration of phase transitions at a fnite temperature and pressure.
  
  # 2. What is the `QHA` program ? 
  
