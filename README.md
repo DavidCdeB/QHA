@@ -40,6 +40,14 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/derivative.png)
  
+ # 2. Power of the quasi-harmonic approximation
+ 
+ If we represent the Gibbs free energy as a function of temperature and pressure for different thermodynamic polymorphs, we can obtain surface plots like the following:
+ 
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/derivative.png)
+ 
+ where the crossing between two phases (alpha and beta) in the figure define a line, which is the phase boundary in a 2D Temperature-Pressure diagram. In other words, by implementing the quasi-harmonic approximation we are predicting the phase diagram of a substance.
+ 
  # 2. What is the `QHA` program ? 
  
  `QHA` is a program for computational chemistry and physics that performs the quasi-harmonic approximation reading the frequencies at each volume calculated with [CRYSTAL](http://www.crystal.unito.it/index.php). 
