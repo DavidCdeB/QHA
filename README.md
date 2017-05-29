@@ -20,4 +20,5 @@ where there is a value of frequency for each *k* vector. In a molecule, this is 
 <a href="https://www.codecogs.com/eqnedit.php?latex=a^{b}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a^{b}" title="a^{b}" /></a>
 
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/a.png)
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/part_function.png)
