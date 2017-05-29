@@ -19,3 +19,4 @@ where there is a value of frequency for each **k** vector. In a molecule, this i
 
 , where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell.
 
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_donw.png)
