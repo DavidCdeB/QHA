@@ -40,4 +40,4 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/derivative.png)
  
- # What is the `QHA` program ? 
+ # 2. What is the `QHA` program ? 
