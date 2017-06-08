@@ -131,10 +131,8 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
 
 To run, `QHA` requires Python with certain packages and two other free programs.
 
-* Python
-
-    Python 2.7 or higher 
-    Packages: numpy, scipy, re, os, glob, itertools, subprocess, sys (All of these come with a default [Anacaonda](https://www.continuum.io/downloads) installation).
+* Python 2.7 or higher
+* Packages: numpy, scipy, re, os, glob, itertools, subprocess, sys (All of these come with a default [Anacaonda](https://www.continuum.io/downloads) installation).
 
 # 7. Test
 
