@@ -63,7 +63,14 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  * A master program ``QHA.py``
  * A series of ``bash`` and ``awk`` scripts for parsing data more effectively.
  * `gnuplot` scripts for the plotting of the surfaces.
- 
+
+The program was developed as part of my PhD project at Prof. Nicholas Harrison's Computational Materials Science Group, Imperial College London. The program was used to investigate the phase diagram and phase transitions mechanisms on the calcium carbonate system.
+
+    charge 'flexibility'
+    'compromise' charges
+
+
+
  # Why is `QHA` useful ?
 
 * The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
@@ -122,6 +129,11 @@ The name of all these 11 outputs have to end as `*T.out`
 * Give permissions to all the scripts: `chmod u+x *.sh *.py` 
 * Run `QHA_master.py`
 
+# 5. How to cite:
+
+Please cite the following reference when using this code:
+
+de Busturia, D.C., Mallia, G. and Harrison, N. M. "Computed phase stability and phase transition mechanisms in CaCO3 at finite temperature and pressure" _In progress_
 
 # Contributing
 
@@ -135,6 +147,6 @@ All contributions to improve this code are more than welcome.
 * If you are not familiar with `git`: 
 
     * If something should be improved, open an issue here on GitHub
-    * If you think a new feature would be nice, open an issue
-    * If you need a feature for your project (i.e. within a certain time frame), contact the maintainer directly to discuss whether it can be implemented time.
-  Then we'll open an issue.
+    * If you think a new feature would be interested, open an issue
+    * If you need a particular feature for your project contact me directly.
+  
