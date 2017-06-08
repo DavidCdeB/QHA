@@ -117,7 +117,7 @@ The name of all these 11 outputs have to end as `*T.out`
 
 # 4. How to run `QHA`:
 
-* `cd` to the working directory where you have the `EOS.out` and the scelphono outputs `*T.out`
+* `cd` to the working directory where you have the `*EOS.out` and the scelphono outputs `*T.out`
 * Get the code: `git clone https://github.com/DavidCdeB/QHA`
 * Give permissions to all the scripts: `chmod u+x *.sh *.py` 
 * Run `QHA_master.py`
@@ -125,10 +125,13 @@ The name of all these 11 outputs have to end as `*T.out`
 
 # Contributing
 
-All contributions to improve this code or creating a more general script that would include more things for checking the status of the runs are very welcome.
+`QHA` is free software released under the Gnu Public Licence version 3. 
+All contributions to improve this code are more than welcome.
 
 * Have a look at GitHub's ["How to contribute"](https://guides.github.com/activities/contributing-to-open-source/#contributing).
+
 * If you are familiar with `git`: fork this repository and submit a pull request.
+
 * If you are not familiar with `git`: 
 
     * If something should be improved, open an issue here on GitHub
