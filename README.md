@@ -64,13 +64,9 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  * A series of ``bash`` and ``awk`` scripts for parsing data more effectively.
  * `gnuplot` scripts for the plotting of the surfaces.
 
-The program was developed as part of my PhD project at Prof. Nicholas Harrison's Computational Materials Science Group, Imperial College London. The program was used to investigate the phase diagram and phase transitions mechanisms on the calcium carbonate system.
+The program was developed as part of my PhD project at [Prof. Nicholas Harrison's Computational Materials Science Group](http://www.imperial.ac.uk/computational-materials-science/people/), Imperial College London. The program was used to investigate the phase diagram and phase transitions mechanisms on the calcium carbonate system.
 
-    charge 'flexibility'
-    'compromise' charges
-
-
-
+ 
  # Why is `QHA` useful ?
 
 * The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
@@ -79,7 +75,7 @@ The program was developed as part of my PhD project at Prof. Nicholas Harrison's
 
     * The optimization porcess is without doubt, more difficult in the supercell scheme: the cell is bigger, there are more atoms, and this can lead to convergence problems, or flase minima.
 
-   * Unwanted phase transitions (Fig. CC). 
+   * Not relevant (unwanted) supercell phase transitions (Fig. CC). 
    
 * Ideally, CRYSTAL should perform the optimization in the the primitive cell prior to making the supercell for the phonons calculation at a finite **k** point, but this is not so trivial to implement in the main code, according to the developers. Hopefully, this will be taken into account in future versions of the code. But for the moment, this `QHA` code is an easy and effective solution for evaluating thermodynamic properties of crystals at a finite temperature and pressure (the real world).
 
