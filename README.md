@@ -80,14 +80,10 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
 
 If you are wondering and concerned about FIXINDEX problems, there is no reason for that. With this `QHA` code, there are in fact two levels of FIXINDEX:
 
- * 1) Since the code is reading from the `EOS.out`, the electronic energy `EL` is already "fixindexed" with respect to the equilibrium volume geometry.
+ * Since the code is reading from the `EOS.out`, the electronic energy `EL` is already "fixindexed" with respect to the equilibrium volume geometry.
  
- * 2) Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are "fixindexed" with respect to that specific volume, as opposed to the equilibrium volume geometry. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors for that particular volume if the frequency calculation for a given volume is in fact `FIXINDEX`ed to that specific volume.
+ * Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are "fixindexed" with respect to that specific volume, as opposed to the equilibrium volume geometry. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors for that particular volume if the frequency calculation for a given volume is in fact "fixindexed" to that specific volume.
  
-
-
-
-
  
  # 3. Files needed for running `QHA`:
  
@@ -121,4 +117,21 @@ The name of all these 11 outputs have to end as `*T.out`
 
 # 4. How to run `QHA`:
 
+* `cd` to the working directory where you have the `EOS.out` and the scelphono outputs `*T.out`
+* Get the code: `git clone https://github.com/DavidCdeB/QHA`
+* Give permissions to all the scripts: `chmod u+x *.sh *.py` 
+* Run `QHA_master.py`
 
+
+# Contributing
+
+All contributions to improve this code or creating a more general script that would include more things for checking the status of the runs are very welcome.
+
+* Have a look at GitHub's ["How to contribute"](https://guides.github.com/activities/contributing-to-open-source/#contributing).
+* If you are familiar with `git`: fork this repository and submit a pull request.
+* If you are not familiar with `git`: 
+
+    * If something should be improved, open an issue here on GitHub
+    * If you think a new feature would be nice, open an issue
+    * If you need a feature for your project (i.e. within a certain time frame), contact the maintainer directly to discuss whether it can be implemented time.
+  Then we'll open an issue.
