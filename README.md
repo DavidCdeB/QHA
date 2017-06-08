@@ -25,8 +25,6 @@ It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free 
 <a href="https://www.codecogs.com/eqnedit.php?latex=S&space;=&space;-k_{B}&space;\sum_{i,&space;\mathbf{k}}\ln&space;\left&space;[&space;1-\exp\left&space;(&space;\frac{-h\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)&space;}{k_{B}T}&space;\right&space;)&space;\right&space;]&space;&plus;&space;\frac{h}{T}&space;\sum_{i,&space;\mathbf{k}}\,\frac{\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)}{\exp\left&space;(&space;\frac{h\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)&space;}{k_{B}T}&space;\right&space;)-1}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S&space;=&space;-k_{B}&space;\sum_{i,&space;\mathbf{k}}\ln&space;\left&space;[&space;1-\exp\left&space;(&space;\frac{-h\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)&space;}{k_{B}T}&space;\right&space;)&space;\right&space;]&space;&plus;&space;\frac{h}{T}&space;\sum_{i,&space;\mathbf{k}}\,\frac{\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)}{\exp\left&space;(&space;\frac{h\nu_{i}&space;\left&space;(\mathbf{k}\right&space;)&space;}{k_{B}T}&space;\right&space;)-1}" title="S = -k_{B} \sum_{i, \mathbf{k}}\ln \left [ 1-\exp\left ( \frac{-h\nu_{i} \left (\mathbf{k}\right ) }{k_{B}T} \right ) \right ] + \frac{h}{T} \sum_{i, \mathbf{k}}\,\frac{\nu_{i} \left (\mathbf{k}\right )}{\exp\left ( \frac{h\nu_{i} \left (\mathbf{k}\right ) }{k_{B}T} \right )-1}" /></a>
 
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/entropy.png)
-
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_donw.png)
  
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_2.png)
 
