@@ -48,7 +48,7 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  
  where the crossing between two phases (alpha and beta in the figure) define a line, which is the phase boundary of these two phases in a 2D Temperature-Pressure diagram. In other words, by implementing the quasi-harmonic approximation we are predicting the **phase diagram** of a substance and the **thermodynamic stability** of different polymorphs, which leads to the exploration of **phase transitions** at a fnite temperature and pressure.
  
- # 2. What is the `QHA` program ? 
+ # 3. What is the `QHA` program ? 
  
  `QHA` is a program for computational chemistry and physics that performs the quasi-harmonic approximation reading the frequencies at each volume calculated with [CRYSTAL](http://www.crystal.unito.it/index.php). 
  
@@ -60,14 +60,14 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  
  The program is given as a `QHA.zip` file. When unzipped in the working directory, the program is structured as follows:
  
- * A master program ``QHA.py``
+ * A master program ``QHA_master.py``
  * A series of ``bash`` and ``awk`` scripts for parsing data more effectively.
  * `gnuplot` scripts for the plotting of the surfaces.
 
 The program was developed as part of my PhD project at [Prof. Nicholas Harrison's Computational Materials Science Group](http://www.imperial.ac.uk/computational-materials-science/people/), Imperial College London. The program was used to investigate the phase diagram and phase transitions mechanisms on the calcium carbonate system.
 
  
- # Why is `QHA` useful ?
+ # 4. Why is `QHA` useful ?
 
 * The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
 
@@ -88,7 +88,7 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
  * Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are "fixindexed" with respect to that specific volume, as opposed to the equilibrium volume geometry. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors for that particular volume if the frequency calculation for a given volume is in fact "fixindexed" to that specific volume.
  
  
- # 3. Files needed for running `QHA`:
+ # 5. Files needed for running `QHA`:
  
  `QHA` requires two types of output files from CRYSTAL in the working directory:
  
@@ -96,43 +96,63 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
  
  ```
  EOS
-[Optional sub-keywords]
-END 
-```
-The name of this output has to end as `*EOS.out`
+ [Optional sub-keywords]
+ END 
+ ```
+ The name of this output has to end as `*EOS.out`
 
  * If the `EOS` calculation was performed over 11 volumes (the default), you should run 11 `SCELPHONO` outputs:
  
  ```
-SCELPHONO
-[supercell-matrix]
-FREQCALC
-NOINTENS
-NOOPTGEOM
-DISPERSI
-RESTART
-TEMPERAT
-[range-of-temperatures-desired]
-END
-END
-```
-The name of all these 11 outputs have to end as `*T.out`
-Please ensure that you are using a sufficient big supercell for the entropy to be converged with the number of **k** points.
+ SCELPHONO
+ [supercell-matrix]
+ FREQCALC
+ NOINTENS
+ NOOPTGEOM
+ DISPERSI
+ RESTART
+ TEMPERAT
+ [range-of-temperatures-desired]
+ END
+ END
+ ```
+ The name of all these 11 outputs have to end as `*T.out`
+ Please ensure that you are using a sufficient big supercell for the entropy to be converged with the number of **k** points.
 
-# 4. How to run `QHA`:
+
+# 6. How to run `QHA`:
 
 * `cd` to the working directory where you have the `*EOS.out` and the scelphono outputs `*T.out`
 * Get the code: `git clone https://github.com/DavidCdeB/QHA`
 * Give permissions to all the scripts: `chmod u+x *.sh *.py` 
 * Run `QHA_master.py`
 
-# 5. How to cite:
+**_Prerequisites_**
+
+To run, `QHA` requires Python with certain packages and two other free programs.
+
+* Python
+
+    Python 2.7 or higher 
+    Packages: numpy, scipy, re, os, glob, itertools, subprocess, sys (All of these come with a default [Anacaonda](https://www.continuum.io/downloads) installation).
+
+# 7. Test
+
+Under the `Test` folder, you will find the `EOS.out` and 11 scelphono outputs `*T.out` for Calcite I.
+If you run the program, you will obtain all the information explained in the Data flow, and in the last step,
+this 3D surface plot:
+
+# 8. Data Flow
+
+
+
+# 7. How to cite:
 
 Please cite the following reference when using this code:
 
 de Busturia, D.C., Mallia, G. and Harrison, N. M. "Computed phase stability and phase transition mechanisms in CaCO3 at finite temperature and pressure" _In progress_
 
-# Contributing
+# 8. Contributing
 
 `QHA` is free software released under the Gnu Public Licence version 3. 
 All contributions to improve this code are more than welcome.
