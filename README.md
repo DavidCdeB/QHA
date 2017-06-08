@@ -117,6 +117,7 @@ END
 END
 ```
 The name of all these 11 outputs have to end as `*T.out`
+Please ensure that you are using a sufficient big supercell for the entropy to be converged with the number of **k** points.
 
 # 4. How to run `QHA`:
 
