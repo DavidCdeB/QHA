@@ -101,8 +101,9 @@ The name of all these 11 outputs have to end as `*T.out`
 
 * The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
 
-* The upcoming version of CRYSTAL17 does perform an atomated quasi-harmonic approximation calculation for a given set of volumes. Unfortunalety, the optimization at a constant volume is performed within the supercell scheme. If the supercell is big, (as it should be in order to ensure convergence of the entropy - see point X), this might lead to unwanted phase transitions (Fig. CC). 
- Ideally, the optimization should have to be done in the the primitive cell prior to making the supercell for the phonons calculation, but this is not so trivial to implement in the code.
+* The upcoming version of CRYSTAL17 does perform an atomated quasi-harmonic approximation calculation for a given set of volumes. Unfortunalety, the optimization at a constant volume is performed within the supercell scheme. If the supercell is big, (as it should be in order to ensure convergence of the entropy - see point X -), this might lead to unwanted phase transitions (Fig. CC). In addition, the optimization porcess is without doubt, more difficult in the supercell scheme, and there are more atoms, and this can lead to convergence problems, or flase minima.
+
+ Ideally, the optimization should have to be done in the the primitive cell prior to making the supercell for the phonons calculation, but this is not so trivial to implement in the main code. 
 
 
 
