@@ -64,6 +64,30 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
  * A series of ``bash`` and ``awk`` scripts for parsing data more effectively.
  * `gnuplot` scripts for the plotting of the surfaces.
  
+ # Why is `QHA` useful ?
+
+* The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
+
+* Fortunately, the upcoming version of CRYSTAL17 does perform an atomated quasi-harmonic approximation calculation for a given set of volumes. Unfortunalety, the optimization at a constant volume is performed within the supercell scheme. If the supercell is big, (as it should be in order to ensure convergence of the entropy - see point X -), this might lead to several problems:
+
+    * The optimization porcess is without doubt, more difficult in the supercell scheme: the cell is bigger, there are more atoms, and this can lead to convergence problems, or flase minima.
+
+   * Unwanted phase transitions (Fig. CC). 
+   
+* Ideally, CRYSTAL should perform the optimization in the the primitive cell prior to making the supercell for the phonons calculation at a finite **k** point, but this is not so trivial to implement in the main code, according to the developers. Hopefully, this will be taken into account in future versions of the code. But for the moment, this `QHA` code is an easy and effective solution for evaluating thermodynamic properties of crystals at a finite temperature and pressure (the real world).
+
+* Note for more advanced users:
+
+If you are wondering and concerned about FIXINDEX problems, there is no reason for that. With this `QHA` code, there are in fact two levels of FIXINDEX:
+
+ * 1) Since the code is reading from the `EOS.out`, the electronic energy `EL` is already fixindexed in this calculation.
+ 
+ * 2) Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are `FIXINDEX`ed with respect to that specific volume. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors if the frequency calculation for a given volume is in fact `FIXINDEX`ed to that specific volume.
+ 
+
+
+
+
  
  # 3. Files needed for running `QHA`:
  
@@ -96,18 +120,5 @@ END
 The name of all these 11 outputs have to end as `*T.out`
 
 # 4. How to run `QHA`:
-
-# Why `QHA` is useful ?
-
-* The actual version of [CRYSTAL14 v1.0.4](http://www.crystal.unito.it/index.php). does not perform an automated quasi-harmonic approximation calculation.
-
-* The upcoming version of CRYSTAL17 does perform an atomated quasi-harmonic approximation calculation for a given set of volumes. Unfortunalety, the optimization at a constant volume is performed within the supercell scheme. If the supercell is big, (as it should be in order to ensure convergence of the entropy - see point X -), this might lead to several problems:
-
-    * The optimization porcess is without doubt, more difficult in the supercell scheme, and there are more atoms, and this can lead to convergence problems, or flase minima.
-
-   * Unwanted phase transitions (Fig. CC). 
-   
-* Ideally, CRYSTAL should perform the optimization in the the primitive cell prior to making the supercell for the phonons calculation, but this is not so trivial to implement in the main code. 
-
 
 
