@@ -76,13 +76,13 @@ where the vibrational frequencies (called phonons in a periodic system) depend o
    
 * Ideally, CRYSTAL should perform the optimization in the the primitive cell prior to making the supercell for the phonons calculation at a finite **k** point, but this is not so trivial to implement in the main code, according to the developers. Hopefully, this will be taken into account in future versions of the code. But for the moment, this `QHA` code is an easy and effective solution for evaluating thermodynamic properties of crystals at a finite temperature and pressure (the real world).
 
-* Note for more advanced users:
+**_Note for more advanced users:_**
 
 If you are wondering and concerned about FIXINDEX problems, there is no reason for that. With this `QHA` code, there are in fact two levels of FIXINDEX:
 
- * 1) Since the code is reading from the `EOS.out`, the electronic energy `EL` is already fixindexed in this calculation.
+ * 1) Since the code is reading from the `EOS.out`, the electronic energy `EL` is already "fixindexed" with respect to the equilibrium volume geometry.
  
- * 2) Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are `FIXINDEX`ed with respect to that specific volume. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors if the frequency calculation for a given volume is in fact `FIXINDEX`ed to that specific volume.
+ * 2) Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are "fixindexed" with respect to that specific volume, as opposed to the equilibrium volume geometry. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors for that particular volume if the frequency calculation for a given volume is in fact `FIXINDEX`ed to that specific volume.
  
 
 
