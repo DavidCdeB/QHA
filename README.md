@@ -11,8 +11,6 @@ The quasi-harmonic approximation is an elegant way to tacke with this problem in
 
 For a given independent harmonic oscillator, by summing over all these levels it is possible to derive the partition function:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Zik_2.png)
-
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Zik_3.png)
 
 where there is a value of frequency for each **k** vector. In a molecule, this is equivalent to a unique value of *k* (the Gamma point).
@@ -118,6 +116,12 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
  The name of all these 11 outputs have to end as `*T.out`
  Please ensure that you are using a sufficient big supercell for the entropy to be converged with the number of **k** points.
 
+# 8. Data Flow
+
+The input files needed, program scripts and results are summarized in this flow chart:
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Data_Flow4.png)
+
 
 # 6. How to run `QHA`:
 
@@ -140,12 +144,6 @@ To run, `QHA` requires Python with certain packages and two other free programs.
 Under the `Test` folder, you will find the `EOS.out` and 11 scelphono outputs `*T.out` for Calcite I.
 If you run the program, you will obtain all the information explained in the Data flow, and in the last step,
 this 3D surface plot:
-
-# 8. Data Flow
-
-The input files needed, program scripts and results are summarized in this flow chart:
-
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Data_Flow4.png)
 
 # 7. How to cite:
 
