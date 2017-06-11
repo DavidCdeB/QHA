@@ -144,6 +144,8 @@ this 3D surface plot:
 
 # 8. Data Flow
 
+The input files needed, program scripts and results are summarized in this flow chart:
+
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Data_Flow4.png)
 
 # 7. How to cite:
