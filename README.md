@@ -7,41 +7,41 @@ One of the most famous techniques for taking into account the effect of the temp
 
 The quasi-harmonic approximation is an elegant way to tacke with this problem in condensed matter, by considering each atom as an independent harmonic oscillator:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/levels_vibrat_cropped.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/levels_vibrat_cropped.png)
 
 For a given independent harmonic oscillator, by summing over all these levels it is possible to derive the partition function:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Zik_3.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/Zik_3.png)
 
 where there is a value of frequency for each **k** vector. In a molecule, this is equivalent to a unique value of *k* (the Gamma point).
 
 It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free energy:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/F_2.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/F_2.png)
 
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/entropy.png)
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/entropy.png)
  
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_2.png)
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/G_2.png)
 
 In the athermal limit, the pressure is the derivative of the energy with respect to the volume, and the resultant expression is called an Equation of State (EOS), that can be fitted, for instance, to the Birch-Murnagan EOS.
 
 However, at a finite temperature the pressure is no longer the derivative of the energy with respect to the volume but the derivative of the Helmholtz free energy:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/P_finite.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/P_finite.png)
  
 where the vibrational frequencies (called phonons in a periodic system) depend on the volume of the cell. These can be fitted quadratically:
  
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/quadratic.png)
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/quadratic.png)
  
  So that:
  
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/derivative.png)
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/derivative.png)
  
  # 2. Power of the quasi-harmonic approximation
  
  If we represent the Gibbs free energy as a function of temperature and pressure for different thermodynamic polymorphs, we can obtain surface plots like the following:
  
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/gibbs_free_energy_of_two_phase.jpg)
+ ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/gibbs_free_energy_of_two_phase.jpg)
  
  where the crossing between two phases (alpha and beta in the figure) define a line, which is the phase boundary of these two phases in a 2D Temperature-Pressure diagram. In other words, by implementing the quasi-harmonic approximation we are predicting the **phase diagram** of a substance and the **thermodynamic stability** of different polymorphs, which leads to the exploration of **phase transitions** at a fnite temperature and pressure.
  
@@ -120,7 +120,7 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
 
 The input files needed, program scripts and results are summarized in this flow chart:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Data_Flow4.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/Data_Flow4.png)
 
 
 # 6. How to run `QHA`:
