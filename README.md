@@ -11,7 +11,7 @@ The quasi-harmonic approximation is an elegant way to tacke with this problem in
 
 For a given independent harmonic oscillator, by summing over all these levels it is possible to derive the partition function:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Zik.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Zik_2.png)
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Z_{i,&space;\mathbf{k}}&space;=&space;\frac{\exp\left&space;(&space;-\frac{h\nu_{i}\left&space;(&space;\mathbf{k}&space;\right&space;)}{2k_{B}T}&space;\right&space;)}{1-\exp\left&space;(&space;-\frac{h\nu_{i}\left&space;(&space;\mathbf{k}&space;\right&space;)}{k_{B}T}&space;\right&space;)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Z_{i,&space;\mathbf{k}}&space;=&space;\frac{\exp\left&space;(&space;-\frac{h\nu_{i}\left&space;(&space;\mathbf{k}&space;\right&space;)}{2k_{B}T}&space;\right&space;)}{1-\exp\left&space;(&space;-\frac{h\nu_{i}\left&space;(&space;\mathbf{k}&space;\right&space;)}{k_{B}T}&space;\right&space;)}" title="Z_{i, \mathbf{k}} = \frac{\exp\left ( -\frac{h\nu_{i}\left ( \mathbf{k} \right )}{2k_{B}T} \right )}{1-\exp\left ( -\frac{h\nu_{i}\left ( \mathbf{k} \right )}{k_{B}T} \right )}" /></a>
 
