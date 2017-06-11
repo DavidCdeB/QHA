@@ -20,10 +20,6 @@ It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free 
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/F_2.png)
 
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=F&space;=&space;U&space;&plus;&space;\frac{1}{2}\sum_{i,\mathbf{k}}&space;h\nu_{i}&space;\left&space;(&space;\mathbf{k}&space;\right&space;)&space;&plus;&space;k_{B}&space;T&space;\sum_{i,&space;\mathbf{k}}&space;\ln&space;\left&space;[&space;1-\exp&space;\left&space;(&space;\frac{-h\nu_{i}&space;\left&space;(&space;\mathbf{k}&space;\right&space;)&space;}{k_{B}T}&space;\right&space;)&space;\right&space;]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?F&space;=&space;U&space;&plus;&space;\frac{1}{2}\sum_{i,\mathbf{k}}&space;h\nu_{i}&space;\left&space;(&space;\mathbf{k}&space;\right&space;)&space;&plus;&space;k_{B}&space;T&space;\sum_{i,&space;\mathbf{k}}&space;\ln&space;\left&space;[&space;1-\exp&space;\left&space;(&space;\frac{-h\nu_{i}&space;\left&space;(&space;\mathbf{k}&space;\right&space;)&space;}{k_{B}T}&space;\right&space;)&space;\right&space;]" title="F = U + \frac{1}{2}\sum_{i,\mathbf{k}} h\nu_{i} \left ( \mathbf{k} \right ) + k_{B} T \sum_{i, \mathbf{k}} \ln \left [ 1-\exp \left ( \frac{-h\nu_{i} \left ( \mathbf{k} \right ) }{k_{B}T} \right ) \right ]" /></a>
-
-
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/entropy.png)
  
  ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/G_2.png)
