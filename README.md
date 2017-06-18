@@ -13,7 +13,7 @@ For a given independent harmonic oscillator, by summing over all these levels it
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/Zik_3.png)
 
-where there is a value of frequency for each **k** vector. In a molecule, this is equivalent to a unique value of *k* (the Gamma point).
+where there is a value of frequency for each **k** vector. In a molecule, this is equivalent to a unique value of **k** (the Gamma point).
 
 It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free energy:
 
