@@ -1,5 +1,5 @@
 # 
-# QHA program. David Carrasco de Busturia, 30 April 2017 
+# QHA program. David Carrasco de Busturia, 18 June 2017 
 # Please read the documentation and istructions on: https://github.com/DavidCdeB/QHA
 # This program is under the GNU General Public License v3.0. 
 # davidcarrascobustur@gmail.com
