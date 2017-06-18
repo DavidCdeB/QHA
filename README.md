@@ -117,6 +117,10 @@ The input files needed, program scripts and results are summarized in this flow 
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/Data_Flow4.png)
 
+On pdf:
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg.pdf)
+
 
 # 7. How to run `QHA`:
 
