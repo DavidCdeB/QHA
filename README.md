@@ -79,7 +79,7 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
  * Since the code is reading from each independent constant-volume frequency calculation, the frequencies for a given volume are "fixindexed" with respect to that specific volume, as opposed to the equilibrium volume geometry. This might appear to be a drawback, however, it happens to be an inmense advantage: since the frequencies are obtained from the second derivatives of the energy, we would obtain better eigenvalues and eigenvectors for that particular volume if the frequency calculation for a given volume is in fact "fixindexed" to that specific volume.
  
  
- # 5. Files needed for running `QHA`:
+ # 5. Files needed for running `QHA`
  
  You don't need CRYSTAL to run `QHA`, only the output files from the calculation.
  `QHA` requires two types of output files from CRYSTAL in the working directory:
@@ -117,7 +117,7 @@ The input files needed, program scripts and results are summarized in this flow 
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg_from_pdf.png)
 
-# 7. How to run `QHA`:
+# 7. How to run `QHA`
 
 * `cd` to the working directory where you have the `*EOS.out` and the scelphono outputs `*T.out`
 * Get the code: `git clone https://github.com/DavidCdeB/QHA`
@@ -138,7 +138,7 @@ To run, `QHA` requires Python with certain packages:
 Under the `Test` folder, you will find the `EOS.out` and 11 scelphono outputs `*T.out` for Calcite I.
 If you run the program, you will obtain all the tables and 3D surface plots shown in the Data Flow chart.
 
-# 9. How to cite:
+# 9. How to cite
 
 Please cite the following reference when using this code:
 
