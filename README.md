@@ -121,6 +121,9 @@ On pdf:
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg.pdf)
 
+The image of the pdf: data_Flow3_svg_from_pdf.png
+
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg_from_pdf.png)
 
 # 7. How to run `QHA`:
 
