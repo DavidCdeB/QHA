@@ -121,7 +121,7 @@ The input files needed, program scripts and results are summarized in this flow 
 
 * `cd` to the working directory where you have the `*EOS.out` and the scelphono outputs `*T.out`
 * Get the code: `git clone https://github.com/DavidCdeB/QHA`
-* Give permissions to all the scripts: `chmod u+x *.sh *.py` 
+* Give permissions to all the scripts: `chmod u+x *.sh *.py *.awk`
 * Run `QHA_master.py`
 
 **_Prerequisites_**
