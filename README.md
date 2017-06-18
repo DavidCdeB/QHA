@@ -81,6 +81,7 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
  
  # 5. Files needed for running `QHA`:
  
+ You dont need CRYSTAL to run `QHA`, only the output files from the calculation.
  `QHA` requires two types of output files from CRYSTAL in the working directory:
  
  * The output from the `EOS` calulation: 
