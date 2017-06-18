@@ -115,14 +115,6 @@ If you are wondering and concerned about FIXINDEX problems, there is no reason f
 
 The input files needed, program scripts and results are summarized in this flow chart:
 
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/Data_Flow4.png)
-
-On pdf:
-
-![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg.pdf)
-
-The image of the pdf: data_Flow3_svg_from_pdf.png
-
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/data_Flow3_svg_from_pdf.png)
 
 # 7. How to run `QHA`:
