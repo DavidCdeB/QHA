@@ -163,5 +163,7 @@ All contributions to improve this code are more than welcome.
   # References
   
   [1] R. Car, M. Parrinello, Phys. Rev. Lett. 1985, 55, 2471
+  
   [2] F. Buda, R. Car, M. Parrinello, Phys. Rev. B 1990, 41, 1680
+  
   [3] F. D. Vila, V. E. Lindahl, J. J. Rehr, Phys. Rev. B 2012, 85, 024303
