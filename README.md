@@ -157,7 +157,7 @@ All contributions to improve this code are more than welcome.
 * If you are not familiar with `git`: 
 
     * If something should be improved, open an issue here on GitHub
-    * If you think a new feature would be interested, open an issue
+    * If you think a new feature would be interesting, open an issue
     * If you need a particular feature for your project contact me directly.
   
  # 11. References
