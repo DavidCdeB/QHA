@@ -160,7 +160,7 @@ All contributions to improve this code are more than welcome.
     * If you think a new feature would be interested, open an issue
     * If you need a particular feature for your project contact me directly.
   
-  # References
+ # 11. References
   
   [1] R. Car, M. Parrinello, Phys. Rev. Lett. 1985, 55, 2471
   
