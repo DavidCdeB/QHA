@@ -136,8 +136,7 @@ To run, `QHA` requires Python with certain packages:
 # 8. Test
 
 Under the `Test` folder, you will find the `EOS.out` and 11 scelphono outputs `*T.out` for Calcite I.
-If you run the program, you will obtain all the information explained in the Data flow, and in the last step,
-the 3D surface plots shown in the Data Flow chart.
+If you run the program, you will obtain all the tables and 3D surface plots shown in the Data Flow chart.
 
 # 9. How to cite:
 
