@@ -140,7 +140,7 @@ If you run the program, you will obtain all the tables and 3D surface plots show
 
 # 9. How to cite:
 
-Please do cite the following reference when using this code:
+Please cite the following reference when using this code:
 
 de Busturia, D.C., Mallia, G. and Harrison, N. M. "Computed phase stability and phase transition mechanisms in CaCO3 at finite temperature and pressure" _In progress_
 
