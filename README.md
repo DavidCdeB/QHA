@@ -19,9 +19,9 @@ It is not difficult to derive the Helmholtz free energy, entropy and Gibbs free 
 
 ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/F_2.png)
 
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/entropy.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/entropy.png)
  
- ![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/G_donw.png)
+![Data flow](https://github.com/DavidCdeB/QHA/blob/master/Images_for_README_md/G_donw.png)
 
 In the athermal limit, the pressure is the derivative of the energy with respect to the volume, and the resultant expression is called an Equation of State (EOS), that can be fitted, for instance, to the Birch-Murnagan EOS.
 
