@@ -142,6 +142,14 @@ If you run the program, you will obtain all the tables and 3D surface plots show
 
 Please cite the following reference when using this code:
 
+D. Carrasco-Busturia, "The temperature - pressure phase diagram of the calcite I - calcite II
+phase transition: A first-principles investigation", Journal of Physics and Chemistry of Solids, vol. 154,
+p. 110 045, 2021. DOI: https://doi.org/10.1016/j.jpcs.2021.110045.
+
+<a name="example9"></a>
+
+Here the bibtex:
+
 ```
 @article{CARRASCOBUSTURIA2021110045,                                                                        
 title = {The temperature - pressure phase diagram of the calcite {I} - calcite {II} phase transition: A first-principles investigation},
